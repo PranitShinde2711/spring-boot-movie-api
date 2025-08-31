@@ -28,7 +28,7 @@ Base URL:  http://localhost:8080/movies
 3] GET /movies/{id} → Get movie by ID
 4] PUT /movies/{id} → Update movie
 5] DELETE /movies/{id} → Delete movie
-6] GET /movies?page=0&size=5 → Get all movies (with pagination)
+6] GET /movies?page=0&size=5 → Get 5 movies of page 0
 
 🧪 How to Run Tests
 
