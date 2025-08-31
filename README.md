@@ -15,41 +15,26 @@ A RESTful API built with Spring Boot to manage movies. Features include CRUD ope
 git clone https://github.com/PranitShinde2711/spring-boot-movie-api.git
 cd spring-boot-movie-api
 
-
-Build the project
-
+2. Build the project
 mvn clean install
+Run the application - mvn spring-boot:run
 
-
-Run the application
-
-mvn spring-boot:run
-
-
-Access the API
-
+3. Access the API
 Base URL: http://localhost:8080/movies
 
 📖 API Endpoints
 Movies
-
 POST /movies → Create a movie
-
 GET /movies/{id} → Get movie by ID
-
 PUT /movies/{id} → Update movie
-
 DELETE /movies/{id} → Delete movie
-
 GET /movies?page=0&size=5 → Get all movies (with pagination)
 
-🧪 How to Run Tests
+4.🧪 How to Run Tests
 
-Run all tests (including integration tests):
+Run all tests (including integration tests): mvn test
+To run only integration tests: mvn test -Dtest=MovieIntegrationTest
 
-mvn test
-
-📑 Swagger API Docs
-
+5.📑 Swagger API Docs
 Swagger UI is available when the app is running:
 👉 http://localhost:8080/swagger-ui.html
