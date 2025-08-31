@@ -23,12 +23,12 @@ A RESTful API built with Spring Boot to manage movies. Features include CRUD ope
 Base URL:  http://localhost:8080/movies
 
 📖API Endpoints
-1]movies
-2]POST /movies → Create a movie
-3]GET /movies/{id} → Get movie by ID
-4]PUT /movies/{id} → Update movie
-5]DELETE /movies/{id} → Delete movie
-6]GET /movies?page=0&size=5 → Get all movies (with pagination)
+1] movies
+2] POST /movies → Create a movie
+3] GET /movies/{id} → Get movie by ID
+4] PUT /movies/{id} → Update movie
+5] DELETE /movies/{id} → Delete movie
+6] GET /movies?page=0&size=5 → Get all movies (with pagination)
 
 🧪 How to Run Tests
 
