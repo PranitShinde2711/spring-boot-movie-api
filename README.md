@@ -22,7 +22,7 @@ A RESTful API built with Spring Boot to manage movies. Features include CRUD ope
 3. Access the API
 Base URL:  http://localhost:8080/movies
 
-📖 API Endpoints
+📖API Endpoints
 Movies
 POST /movies → Create a movie
 GET /movies/{id} → Get movie by ID
@@ -30,11 +30,11 @@ PUT /movies/{id} → Update movie
 DELETE /movies/{id} → Delete movie
 GET /movies?page=0&size=5 → Get all movies (with pagination)
 
-4.🧪 How to Run Tests
+🧪 How to Run Tests
 
 1] Run all tests (including integration tests): mvn test
 2] To run only integration tests:  mvn test -Dtest=MovieIntegrationTest
 
-5.📑 Swagger API Docs
+📑 Swagger API Docs
 Swagger UI is available when the app is running:
 👉 http://localhost:8080/swagger-ui.html
